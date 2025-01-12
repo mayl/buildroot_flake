@@ -19,6 +19,7 @@
               gnumake
               ncurses.dev
               pkg-config
+              unzip
               wget
               pkgsCross.aarch64-multiplatform.gccStdenv.cc
             ] ++ pkgs.linux.nativeBuildInputs);
